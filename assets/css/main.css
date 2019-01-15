@@ -1,0 +1,306 @@
+/* 
+    Document   : main
+    Created on : 13.09.2012, 23:26:44
+    Author     : cube
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#editor {overflow:scroll; max-height:300px}
+
+div.delivery_message
+{
+    font-size: 16px;
+    margin: 10px;
+}
+div.order_caption
+{
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    margin-top: 1px;   
+}
+div.order_part_caption
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+    border-top: 1px solid #eeeeee;
+    
+}
+div.order_sub_caption
+{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+table.order
+{
+    background-color: #eeeeee;
+    font-size: 13px;
+}
+td.note
+{
+    padding: 4px;
+    
+    font-size: 16px;
+    width: 350px;
+    
+}
+td.note_tel
+{
+    padding: 4px;
+    border: 1px solid black;
+    font-size: 16px;
+    width: 350px;
+    
+}
+tr.striped
+{
+    background-color: #eeeeee;    
+}
+td.grey_border
+{
+    border:1px solid #eeeeee;
+    padding: 3px;
+}
+
+th.prework-table-th
+{
+    background-color: #ff9900;
+    color:white;
+    margin-bottom: 10px;
+    font:bold 14px verdana;
+    padding: 5px;
+}
+
+tr.prework-table-tr
+{
+    background-color: white;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+tr.prework-table-striped
+{
+    background-color: #ffff99;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+
+#done-cartridge-tr
+{
+    background-color: #666666;
+    color:white;
+    margin-bottom: 10px;
+    font:bold 14px verdana;
+    padding: 5px;
+    height:25px;
+    
+}
+/*
+таблица готовых картриджей и картриджей в р в заказе
+*/
+th.done-cartridge-th
+{
+    background-color: #666666;
+    color:white;
+    margin-bottom: 10px;
+    font:bold 14px verdana;
+    padding: 5px;
+}
+
+tr.done-cartridge-tr
+{
+    background-color: white;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+tr.done-cartridge-striped
+{
+    background-color: #f1f1f1;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+/*---*/
+
+th.delivery-table-th
+{
+    background-color: #33cc33;
+    color:white;
+    margin-bottom: 10px;
+    font:bold 14px verdana;
+    padding: 5px;
+}
+
+tr.delivery-table-tr
+{
+    background-color: white;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+tr.delivery-table-striped
+{
+    background-color: #ccffcc;
+    color:black;
+    font:normal 14px verdana;
+    padding: 5px;
+}
+
+th.work-table-th
+{
+    background-color: #cc0000;
+    color:white;
+    margin-bottom: 10px;
+    font:bold 15px verdana;
+    
+}
+tr.work-table-tr
+{
+    background-color: #ffeeee;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 10px;
+    font: 14px arial;
+}
+tr.work-table-striped
+{
+   background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 10px;
+    font: 14px arial;
+}
+
+td.yellow_border
+{
+    border:1px solid yellow;
+    padding: 3px;
+}
+td.red_border
+{
+    border:1px solid red;
+    padding: 3px;
+}
+
+root { 
+    display: block;
+}
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		margin: 1px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: black;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	
+	
+	p.footer{
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
+        
+        input
+        {
+            border:1px solid black;
+        }
+        
+.white_button
+{
+    
+    width:150px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -khtml-border-radius:10px;  
+   
+}  
+.red_button
+{
+    background-color: #ff0000;
+    width:150px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -khtml-border-radius:10px;  
+   
+} 
+
+#apprv
+{
+    background-color: #ffffcc;
+}
+
+#topck
+{
+    background-color: #ccffff;
+}
+
+#todgs
+{
+    background-color: #ffffcc;
+}
+
+#todsp
+{
+    background-color: #ccffcc;
+}
+	
+

@@ -1,0 +1,1 @@
+<?php echo '<h2>'.anchor('orders/quick_create',lang('menu_orders_create_quick')).'</h2>';?>
